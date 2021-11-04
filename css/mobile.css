@@ -1,4 +1,45 @@
 /* mobile.css */
-body {
-  background: yellow;
+#main-header {
+  position: relative;
+  height: 70px;
+  background: #ccc;
+}
+
+#main-header h1 {
+  text-align: center;
+  line-height: 70px;
+}
+
+#toggle-btn {
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+#gnb {
+  background: #eee;
+}
+
+#gnb ul li {
+  margin: 8px 0;
+}
+
+/* 텍스트 하이라이트 효과 */
+#gnb ul li a {
+  opacity: 0.8;
+}
+
+#gnb ul li a:hover {
+  opacity: 1;
+}
+
+#gnb ul {
+  padding: 20px;
+  display: none;
+}
+
+/* 메인비주얼 */
+#main-visual {
+  /* 세로구도 배경 */
 }
