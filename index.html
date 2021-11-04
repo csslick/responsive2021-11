@@ -21,10 +21,35 @@
     media="screen and (max-width: 767px)"
   >
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
 
 </head>
 <body>
-  <h1>pc면 그린, 모바일이면 노랑 배경이 나옵니다.</h1>
-  <i class='bx bx-user'></i>
+  <header id="main-header">
+    <h1>
+      <a href="#">
+        <img src="images/logo.png" alt="풀무원">
+      </a>
+    </h1>
+    <nav id="gnb">
+      <ul>
+        <li><a href="#">홈</a></li>
+        <li><a href="#">회사소개</a></li>
+        <li><a href="#">제품소개</a></li>
+        <li><a href="#">뉴스룸</a></li>
+        <li><a href="#">오시는 길</a></li>
+      </ul>
+      <button id="toggle-btn" class="btn">
+        <i class='bx bx-menu-alt-right'></i>
+      </button>
+    </nav>
+  </header>
+
+  <!-- 메인비주얼 -->
+  <section id="main-visual">
+    <div class="container">
+      <h2>사람과 자연이 함께 하는<br>건강한 식품 풀무원이 만듭니다.</h2>
+    </div>
+  </section>
 </body>
 </html>

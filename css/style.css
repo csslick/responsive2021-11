@@ -21,8 +21,29 @@ ul {
   list-style-type: none;
 }
 
+h2 {
+  font-weight: 500;
+}
+
 body {
   font-size: 18px;
   color: var(--text-color);
   font-family: 'Noto Sans KR', sans-serif;
+  background: #fff;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.btn {
+  border-style: none;
+  width: 32px;
+  height: 32px;
+  background: transparent;
+}
+
+.bx-menu-alt-right {
+  font-size: 32px;
 }
