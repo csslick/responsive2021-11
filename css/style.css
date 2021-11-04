@@ -1,0 +1,28 @@
+/* style.css 기본(공통) 스타일 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+:root {
+  --main-color: orange;
+  --text-color: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-size: 18px;
+  color: var(--text-color);
+  font-family: 'Noto Sans KR', sans-serif;
+}
