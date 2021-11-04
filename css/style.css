@@ -21,6 +21,10 @@ ul {
   list-style-type: none;
 }
 
+h2 {
+  font-weight: 500;
+}
+
 body {
   font-size: 18px;
   color: var(--text-color);
