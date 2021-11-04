@@ -1,6 +1,6 @@
 /* pc.css */
 #main-header {
-  height: 70px;
+  height: var(--pc-haeder-height);
   background: #fff;
   display: flex;
   justify-content: space-between;
@@ -32,7 +32,7 @@
 #main-visual {
   background: #999;
   width: 100%;
-  height: calc(100vh - 70px);
+  height: calc(100vh - var(--pc-haeder-height));
   color: #fff;
   /* 가로구도 배경 */
   background-image: url(../images/main-visual1.jpg);

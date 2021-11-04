@@ -1,13 +1,18 @@
 /* mobile.css */
 #main-header {
   position: relative;
-  height: 70px;
+  height: var(--mobile-haeder-height);
   background: #fff;
 }
 
 #main-header h1 {
   text-align: center;
   line-height: 70px;
+}
+
+/* 모바일 로고 크기 */
+#main-header h1 img {
+  height: 30px;
 }
 
 #toggle-btn {
@@ -43,7 +48,7 @@
 #main-visual {
   background: #999;
   width: 100%;
-  height: calc(100vh - 70px);
+  height: calc(100vh - var(--mobile-haeder-height));
   color: #fff;
   /* 가로구도 배경 */
   background-image: url(../images/main-visual-mobile1.jpg);
