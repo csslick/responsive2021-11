@@ -65,6 +65,13 @@
   display: flex;
 }
 
+/* 짝수만 가로 칼럼 뒤집기 
+  2n(짝수), 2n+1(홀수)
+*/
+#main article:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
 #main article .img {
   background: #999;
   width: 50%;
@@ -91,5 +98,51 @@
   height: 48px;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
-  
+  text-align: center;
+  line-height: 48px;
+  font-size: 16px;
+}
+
+#main article .img {
+  background: #ccc;
+  background-size: cover;
+  background-position: center;
+}
+
+/* 각각의 주제 이미지 */
+#main article:nth-child(1) .img {
+  background-image: url(../images/main-sec01-img01.jpg);
+}
+#main article:nth-child(2) .img {
+  background-image: url(../images/main-sec01-img02.jpg);
+}
+#main article:nth-child(3) .img {
+  background-image: url(../images/main-sec01-img03.jpg);
+}
+
+#main article .txt-box {
+  /* outline: 1px solid #333; */
+  width: 80%;
+  padding-left: 50px;
+}
+
+/* about */
+#about {
+  width: 100%;
+  background: #ccc;
+  text-align: center;
+  padding: 130px 20%;
+}
+
+#about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#about p {
+  margin-bottom: 40px;
+}
+
+#about .btn-detail {
+  display: inline-block;
 }
