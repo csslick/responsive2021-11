@@ -92,17 +92,6 @@
   margin-bottom: 40px;
 }
 
-.btn-detail {
-  display: block;
-  width: 220px;
-  height: 48px;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
-  text-align: center;
-  line-height: 48px;
-  font-size: 16px;
-}
-
 #main article .img {
   background: #ccc;
   background-size: cover;
@@ -132,6 +121,11 @@
   background: #ccc;
   text-align: center;
   padding: 130px 20%;
+  background-image: url(../images/about-img.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
 }
 
 #about h2 {
@@ -141,8 +135,4 @@
 
 #about p {
   margin-bottom: 40px;
-}
-
-#about .btn-detail {
-  display: inline-block;
 }
