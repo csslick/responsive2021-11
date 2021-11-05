@@ -88,7 +88,7 @@
 #main article .img {
   background: #999;
   width: 100%;
-  height: 500px;
+  height: 300px;
 }
 
 #main article .txt {
@@ -127,7 +127,6 @@
 #main article .txt-box {
   /* outline: 1px solid #333; */
   width: 80%;
-  padding-left: 50px;
 }
 
 /* about */
