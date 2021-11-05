@@ -5,7 +5,7 @@ responsive homepage workout
 - flex 레이아웃
 - 풀스크린, 가변 레이아웃 활용
 - 아이콘 라이브러리 boxicons 활용
-- 위로가기 fixed button(고정 포지션 버튼)
+- 위로가기 fixed button(고정 포지션 버튼) 및 부드러운 화면 이동(CSS scroll)
 
 ## 메인컬러
 - main-color: #8dc63f;
